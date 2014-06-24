@@ -11,16 +11,9 @@
             tabs.removeClass("active").eq(index).addClass("active");
         }); 
         //other code
-    });
-<<<<<<< HEAD
-});
-
-jQuery(document).ready(function ($) {
-    $("#test").click(function () {
-        $("#tab1").load('tabs.php #tab1', function () {
+        $("#test").click(function () {
+            $("#tab1").load('tabs.php #tab1', function () {
+            });
         });
     });
-});
-=======
 })(jQuery);
->>>>>>> origin/master
