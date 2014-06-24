@@ -48,7 +48,7 @@ class User
     }
 
     public function getSalt($username) {
-        $query = "select salt from authentificationData where username = :username limit 1";
+        $query = "select salt from authData where username = :username limit 1";
         $sth = $this->db->prepare($query);
         $sth->execute(
             array(
@@ -64,7 +64,7 @@ class User
 
     public function authorize($username, $password, $remember=false)
     {
-        $query = "select id from authentificationData where
+        $query = "select id from authData where
             username = :username and password = :password limit 1";
         $sth = $this->db->prepare($query);
         $salt = $this->getSalt($username);
@@ -124,7 +124,7 @@ class User
             throw new \Exception("User exists: " . $username, 1);
         }
 
-        $query = "insert into authentificationData (username, password, salt)
+        $query = "insert into authData (username, password, salt)
             values (:username, :password, :salt)";
         $hashes = $this->passwordHash($password);
         $sth = $this->db->prepare($query);

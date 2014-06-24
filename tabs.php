@@ -185,21 +185,23 @@ require_once './classes/Functions.php';
                 <div class="my-tab-content active" id="tab1">
                     <h1 align="center">Меню дій над користувачами</h1>
                     <?php
-                        echo rand(10,100);
-                        $db_host = 'localhost';
-                        $db_name = 'admins';
-                        $db_username = 'roman';
-                        $db_pass = 'roman1';
-                        //Auth\User::connectdb($db_name,$db_user,$db_pass);
-                        $connect_to_db = mysql_connect($db_host, $db_username, $db_pass)
-                            or die("Could not connect: " . mysql_error());
-                        mysql_select_db($db_name, $connect_to_db) or die("Could not select DB: " . mysql_error());
-                        $query = mysql_query("select * from authentificationData") or die("Опа: " . mysql_error());
-                        while ($data = mysql_fetch_array($query)){
-                            echo $data['username'];
-                        }
+                    echo rand(10,100) . '</br>';
+                    $db_host = 'localhost';
+                    $db_name = 'admins';
+                    $db_username = 'roman';
+                    $db_pass = 'roman';
+                    //Auth\User::connectdb($db_name,$db_user,$db_pass);
+                    $connect_to_db = mysql_connect($db_host, $db_username, $db_pass)
+                    or die("Could not connect: " . mysql_error());
+                    mysql_select_db($db_name, $connect_to_db) or die("Could not select DB: " . mysql_error());
+                    $query = mysql_query("select * from users") or die("Опа: " . mysql_error());
+                    while ($data = mysql_fetch_array($query)){
+                        echo $data['Name'];
+                        echo $data['mac'];
+                        echo $data['ip'];
+                        echo $data['int_access'];
+                    }
                     ?>
-
                 </div>
                 <div class="my-tab-content">
                     <h1 align="center">Інші дії</h1>
