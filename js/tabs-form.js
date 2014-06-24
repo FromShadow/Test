@@ -11,3 +11,10 @@ $(document).ready(function() {
         $("div.my-tab>div.my-tab-content").eq(index).addClass("active");
     });
 });
+
+jQuery(document).ready(function ($) {
+    $("#test").click(function () {
+        $("#tab1").load('tabs.php #tab1', function () {
+        });
+    });
+});

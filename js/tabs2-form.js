@@ -7,4 +7,6 @@ $(document).ready(function() {
         $("div.my-tab>div.my-tab-content").removeClass("active");
         $("div.my-tab>div.my-tab-content").eq(index).addClass("active");
     });
+
+
 });

@@ -49,13 +49,6 @@ require_once './classes/Functions.php';
                                         <td>
                                              <form method="post" id="test_form">
                                                  <input id="test" type="submit">
-                                                 <script>
-                                                     $("#test").click(function () {
-                                                         $("#tab1").load('tabs.php #tab1', function () {
-                                                         });
-                                                     });
-                                                 </script>
-
                                             </form>
                                         </td>
                                     </tr>
