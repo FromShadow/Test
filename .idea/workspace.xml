@@ -26,10 +26,10 @@
       <file leaf-file-name="tabs.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tabs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="47" selection-start="9900" selection-end="9900" vertical-scroll-proportion="-8.576923" vertical-offset="1868" max-vertical-offset="2839">
+            <state line="204" column="22" selection-start="10676" selection-end="10676" vertical-scroll-proportion="-7.1923075" vertical-offset="2142" max-vertical-offset="2873">
               <folding>
                 <element signature="e#5771#9473#0" expanded="false" />
-                <marker date="1403602589886" expanded="true" signature="10347:10381" placeholder="select * fro..authentificationData..." />
+                <marker date="1403616247646" expanded="true" signature="10312:10331" placeholder="select * fro..users..." />
               </folding>
             </state>
           </provider>
@@ -44,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="27" selection-start="254" selection-end="254" vertical-scroll-proportion="0.40202704" vertical-offset="0" max-vertical-offset="1207">
+            <state line="14" column="27" selection-start="254" selection-end="254" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -56,19 +56,18 @@
       <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="36" selection-start="742" selection-end="742" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="1190">
+            <state line="125" column="5" selection-start="3504" selection-end="3504" vertical-scroll-proportion="-49.692307" vertical-offset="0" max-vertical-offset="1479">
               <folding>
-                <element signature="n#logout#0;n#AuthorizationAjaxRequest#0;n#!!top" expanded="false" />
                 <element signature="n#register#0;n#AuthorizationAjaxRequest#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AjaxRequest.class.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AjaxRequest.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/AjaxRequest.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="20" selection-start="716" selection-end="716" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="1326">
+            <state line="16" column="5" selection-start="230" selection-end="230" vertical-scroll-proportion="0.3063063" vertical-offset="0" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
@@ -77,15 +76,11 @@
       <file leaf-file-name="Auth.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Auth.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="20" selection-start="4133" selection-end="4133" vertical-scroll-proportion="-46.423077" vertical-offset="204" max-vertical-offset="1734">
+            <state line="60" column="9" selection-start="1444" selection-end="1444" vertical-scroll-proportion="-39.23077" vertical-offset="0" max-vertical-offset="2975">
               <folding>
-                <element signature="e#751#1083#0" expanded="false" />
-                <element signature="e#1089#1491#0" expanded="false" />
-                <element signature="e#2517#3005#0" expanded="false" />
-                <element signature="e#3011#4111#0" expanded="false" />
-                <marker date="1402393740000" expanded="true" signature="1144:1216" placeholder="select salt ..authentificationData..." />
-                <marker date="1402393740000" expanded="true" signature="1586:1693" placeholder="select id fr..authentificationData..." />
-                <marker date="1402393740000" expanded="true" signature="3232:3340" placeholder="insert into ..." />
+                <marker date="1403616567811" expanded="true" signature="1144:1204" placeholder="select salt ..authData..." />
+                <marker date="1403616567811" expanded="true" signature="1574:1669" placeholder="select id fr..authData..." />
+                <marker date="1403616567811" expanded="true" signature="3208:3304" placeholder="insert into ..." />
               </folding>
             </state>
           </provider>
@@ -94,7 +89,7 @@
       <file leaf-file-name="tabs-form.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/tabs-form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state line="17" column="7" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -123,7 +118,6 @@
         <option value="$PROJECT_DIR$/php-auth/css/reset.css" />
         <option value="$PROJECT_DIR$/php-auth/index.php" />
         <option value="$PROJECT_DIR$/php-auth/css/style.css" />
-        <option value="$PROJECT_DIR$/ajax.php" />
         <option value="$PROJECT_DIR$/old/style/style.css" />
         <option value="$PROJECT_DIR$/old/style/tab.js" />
         <option value="$PROJECT_DIR$/old/index.php" />
@@ -136,7 +130,9 @@
         <option value="$PROJECT_DIR$/js/tabs2-form.js" />
         <option value="$PROJECT_DIR$/js/tabs-form.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/ajax.php" />
         <option value="$PROJECT_DIR$/tabs.php" />
+        <option value="$PROJECT_DIR$/classes/Auth.class.php" />
       </list>
     </option>
   </component>
@@ -252,7 +248,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="Configurable.PHP.Debug" />
+    <property name="options.lastSelected" value="Configurable.PHP.Servers" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -366,24 +362,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3127001" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3127001" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19530416" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11526147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12353568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24439701" sideWeight="0.7103301" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11526147" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3127001" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19530416" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12353568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -404,7 +400,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ajax.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -420,7 +426,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3825">
           <folding>
             <element signature="e#5771#9473#0" expanded="false" />
-            <marker date="1403602589886" expanded="true" signature="10347:10381" placeholder="select * fro..authentificationData..." />
+            <marker date="1403616247646" expanded="true" signature="10312:10331" placeholder="select * fro..users..." />
           </folding>
         </state>
       </provider>
@@ -444,30 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tabs-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="36" selection-start="742" selection-end="742" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="1190">
-          <folding>
-            <element signature="n#logout#0;n#AuthorizationAjaxRequest#0;n#!!top" expanded="false" />
-            <element signature="n#register#0;n#AuthorizationAjaxRequest#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
@@ -475,41 +457,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/AjaxRequest.class.php">
+    <entry file="file://$PROJECT_DIR$/js/tabs-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="20" selection-start="716" selection-end="716" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="1326">
+        <state line="17" column="7" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Auth.class.php">
+    <entry file="file://$PROJECT_DIR$/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="20" selection-start="4133" selection-end="4133" vertical-scroll-proportion="-46.423077" vertical-offset="204" max-vertical-offset="1734">
+        <state line="125" column="5" selection-start="3504" selection-end="3504" vertical-scroll-proportion="-49.692307" vertical-offset="0" max-vertical-offset="1479">
           <folding>
-            <element signature="e#751#1083#0" expanded="false" />
-            <element signature="e#1089#1491#0" expanded="false" />
-            <element signature="e#2517#3005#0" expanded="false" />
-            <element signature="e#3011#4111#0" expanded="false" />
-            <marker date="1402393740000" expanded="true" signature="1144:1216" placeholder="select salt ..authentificationData..." />
-            <marker date="1402393740000" expanded="true" signature="1586:1693" placeholder="select id fr..authentificationData..." />
-            <marker date="1402393740000" expanded="true" signature="3232:3340" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tabs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="47" selection-start="9900" selection-end="9900" vertical-scroll-proportion="-8.576923" vertical-offset="1868" max-vertical-offset="2839">
-          <folding>
-            <element signature="e#5771#9473#0" expanded="false" />
-            <marker date="1403602589886" expanded="true" signature="10347:10381" placeholder="select * fro..authentificationData..." />
+            <element signature="n#register#0;n#AuthorizationAjaxRequest#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="254" selection-end="254" vertical-scroll-proportion="0.40202704" vertical-offset="0" max-vertical-offset="1207">
+        <state line="14" column="27" selection-start="254" selection-end="254" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tabs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="204" column="22" selection-start="10676" selection-end="10676" vertical-scroll-proportion="-7.1923075" vertical-offset="2142" max-vertical-offset="2873">
+          <folding>
+            <element signature="e#5771#9473#0" expanded="false" />
+            <marker date="1403616247646" expanded="true" signature="10312:10331" placeholder="select * fro..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Auth.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="9" selection-start="1444" selection-end="1444" vertical-scroll-proportion="-39.23077" vertical-offset="0" max-vertical-offset="2975">
+          <folding>
+            <marker date="1403616567811" expanded="true" signature="1144:1204" placeholder="select salt ..authData..." />
+            <marker date="1403616567811" expanded="true" signature="1574:1669" placeholder="select id fr..authData..." />
+            <marker date="1403616567811" expanded="true" signature="3208:3304" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/AjaxRequest.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="230" selection-end="230" vertical-scroll-proportion="0.3063063" vertical-offset="0" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
