@@ -48,16 +48,16 @@ require_once './classes/Functions.php';
                                     <tr>
                                         <td>
                                              <form method="post" id="test_form">
-                                                 <input id="test" type="submit">
+                                                 <span class="glyphicon glyphicon-flash  text-success"></span><a id="test">Адміністратори</a>
                                             </form>
                                         </td>
                                     </tr>
-                                    <!--tr>
+                                    <tr>
                                         <td>
-                                            <a href="#">Tab 2</a>
+                                            <span class="glyphicon glyphicon-user  text-success"></span><a id="test">Користувачі</a>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <!--tr>
                                         <td>
                                             <a href="http://www.jquery2dotnet.com">Import/Export</a>
                                         </td>
@@ -184,7 +184,22 @@ require_once './classes/Functions.php';
             <div class="col-lg-9 my-tab">
                 <div class="my-tab-content active" id="tab1">
                     <h1 align="center">Меню дій над користувачами</h1>
-                    <?php echo rand(10,100); ?>
+                    <?php
+                        echo rand(10,100);
+                        $db_host = 'localhost';
+                        $db_name = 'admins';
+                        $db_username = 'roman';
+                        $db_pass = 'roman1';
+                        //Auth\User::connectdb($db_name,$db_user,$db_pass);
+                        $connect_to_db = mysql_connect($db_host, $db_username, $db_pass)
+                            or die("Could not connect: " . mysql_error());
+                        mysql_select_db($db_name, $connect_to_db) or die("Could not select DB: " . mysql_error());
+                        $query = mysql_query("select * from authentificationData") or die("Опа: " . mysql_error());
+                        while ($data = mysql_fetch_array($query)){
+                            echo $data['username'];
+                        }
+                    ?>
+
                 </div>
                 <div class="my-tab-content">
                     <h1 align="center">Інші дії</h1>

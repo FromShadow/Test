@@ -26,16 +26,75 @@
       <file leaf-file-name="tabs.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tabs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="213" column="0" selection-start="10519" selection-end="10519" vertical-scroll-proportion="-24.653847" vertical-offset="2980" max-vertical-offset="3723">
+            <state line="190" column="47" selection-start="9900" selection-end="9900" vertical-scroll-proportion="-8.576923" vertical-offset="1868" max-vertical-offset="2839">
+              <folding>
+                <element signature="e#5771#9473#0" expanded="false" />
+                <marker date="1403602589886" expanded="true" signature="10347:10381" placeholder="select * fro..authentificationData..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/Functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabs-form.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="27" selection-start="254" selection-end="254" vertical-scroll-proportion="0.40202704" vertical-offset="0" max-vertical-offset="1207">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="36" selection-start="742" selection-end="742" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="1190">
+              <folding>
+                <element signature="n#logout#0;n#AuthorizationAjaxRequest#0;n#!!top" expanded="false" />
+                <element signature="n#register#0;n#AuthorizationAjaxRequest#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AjaxRequest.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/AjaxRequest.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="20" selection-start="716" selection-end="716" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="1326">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/Auth.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="156" column="20" selection-start="4133" selection-end="4133" vertical-scroll-proportion="-46.423077" vertical-offset="204" max-vertical-offset="1734">
+              <folding>
+                <element signature="e#751#1083#0" expanded="false" />
+                <element signature="e#1089#1491#0" expanded="false" />
+                <element signature="e#2517#3005#0" expanded="false" />
+                <element signature="e#3011#4111#0" expanded="false" />
+                <marker date="1402393740000" expanded="true" signature="1144:1216" placeholder="select salt ..authentificationData..." />
+                <marker date="1402393740000" expanded="true" signature="1586:1693" placeholder="select id fr..authentificationData..." />
+                <marker date="1402393740000" expanded="true" signature="3232:3340" placeholder="insert into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabs-form.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/tabs-form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.5226537" vertical-offset="0" max-vertical-offset="618">
+            <state line="19" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -70,14 +129,14 @@
         <option value="$PROJECT_DIR$/old/index.php" />
         <option value="$PROJECT_DIR$/css/tabs.coffee" />
         <option value="$PROJECT_DIR$/css/tabs.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/test/css/index.style.css" />
         <option value="$PROJECT_DIR$/test/index.php" />
         <option value="$PROJECT_DIR$/test/css/tabs2.style.css" />
         <option value="$PROJECT_DIR$/tabs2.php" />
-        <option value="$PROJECT_DIR$/tabs.php" />
         <option value="$PROJECT_DIR$/js/tabs2-form.js" />
         <option value="$PROJECT_DIR$/js/tabs-form.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/tabs.php" />
       </list>
     </option>
   </component>
@@ -155,20 +214,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="old" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -184,6 +229,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,13 +404,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/classes/Auth.class.php</url>
-          <line>82</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="19" />
     </breakpoint-manager>
   </component>
@@ -366,25 +418,16 @@
     <entry file="file://$PROJECT_DIR$/tabs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3825">
-          <folding />
+          <folding>
+            <element signature="e#5771#9473#0" expanded="false" />
+            <marker date="1403602589886" expanded="true" signature="10347:10381" placeholder="select * fro..authentificationData..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="572" column="23" selection-start="13047" selection-end="13047" vertical-scroll-proportion="0.49815497" vertical-offset="9319" max-vertical-offset="10132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/AjaxRequest.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="20" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-6.6538463" vertical-offset="609" max-vertical-offset="1326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Auth.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="828" selection-end="828" vertical-scroll-proportion="-6.6538463" vertical-offset="473" max-vertical-offset="2975">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tabs2.php">
@@ -401,16 +444,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tabs.php">
+    <entry file="file://$PROJECT_DIR$/js/tabs-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="0" selection-start="10519" selection-end="10519" vertical-scroll-proportion="-24.653847" vertical-offset="2980" max-vertical-offset="3723">
+        <state line="19" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tabs-form.js">
+    <entry file="file://$PROJECT_DIR$/old/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.5226537" vertical-offset="0" max-vertical-offset="618">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="36" selection-start="742" selection-end="742" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="1190">
+          <folding>
+            <element signature="n#logout#0;n#AuthorizationAjaxRequest#0;n#!!top" expanded="false" />
+            <element signature="n#register#0;n#AuthorizationAjaxRequest#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/AjaxRequest.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="20" selection-start="716" selection-end="716" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Auth.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="20" selection-start="4133" selection-end="4133" vertical-scroll-proportion="-46.423077" vertical-offset="204" max-vertical-offset="1734">
+          <folding>
+            <element signature="e#751#1083#0" expanded="false" />
+            <element signature="e#1089#1491#0" expanded="false" />
+            <element signature="e#2517#3005#0" expanded="false" />
+            <element signature="e#3011#4111#0" expanded="false" />
+            <marker date="1402393740000" expanded="true" signature="1144:1216" placeholder="select salt ..authentificationData..." />
+            <marker date="1402393740000" expanded="true" signature="1586:1693" placeholder="select id fr..authentificationData..." />
+            <marker date="1402393740000" expanded="true" signature="3232:3340" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tabs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="47" selection-start="9900" selection-end="9900" vertical-scroll-proportion="-8.576923" vertical-offset="1868" max-vertical-offset="2839">
+          <folding>
+            <element signature="e#5771#9473#0" expanded="false" />
+            <marker date="1403602589886" expanded="true" signature="10347:10381" placeholder="select * fro..authentificationData..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="254" selection-end="254" vertical-scroll-proportion="0.40202704" vertical-offset="0" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
