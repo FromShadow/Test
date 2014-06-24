@@ -1,15 +1,18 @@
 /**
- * Created by Роман on 17.06.14.
+ * Main js file
  */
-$(document).ready(function() {
-    $("div.panel-group>div").click(function(e) {
-        e.preventDefault();
-       // $(this).siblings('a.active').removeClass("active");
-       // $(this).addClass("active");
-        var index = $(this).index();
-        $("div.my-tab>div.my-tab-content").removeClass("active");
-        $("div.my-tab>div.my-tab-content").eq(index).addClass("active");
+(function($) {
+    $(function() {
+        //tabs
+        $("div.panel-group>div").click(function(e) {
+            var tabs = $("div.my-tab>div.my-tab-content"),
+                index = $(this).index();
+            e.preventDefault();
+            tabs.removeClass("active").eq(index).addClass("active");
+        }); 
+        //other code
     });
+<<<<<<< HEAD
 });
 
 jQuery(document).ready(function ($) {
@@ -18,3 +21,6 @@ jQuery(document).ready(function ($) {
         });
     });
 });
+=======
+})(jQuery);
+>>>>>>> origin/master
